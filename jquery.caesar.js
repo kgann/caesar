@@ -7,7 +7,7 @@
       self = $(this);
       encoded = self.attr(opts.attr) || "";
       for(i = 0; i < encoded.length; i++) {
-        decoded += opts.charLookup.hasOwnProperty(encoded[i]) ? opts.charLookup[encoded[i]] : encoded[i];
+        decoded += opts.charLookup[encoded[i]] || encoded[i];
       }
       self.bind('click', {
         decoded: decoded, 
