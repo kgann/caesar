@@ -25,7 +25,7 @@
       5: "4", 6: "5", 7: "6", 8: "7", 9: "8", 0: "9"
     },
     onClick: function(e) {
-      this.data("target") == "_blank" ? window.open(e.data.decoded, "_blank") : window.location = e.data.decoded;
+      $(this).data("target") == "_blank" ? window.open(e.data.decoded, "_blank") : window.location = e.data.decoded;
     }
   }
 
