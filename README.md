@@ -26,7 +26,7 @@ Options
 
 Most recently used for a client who didn't want some links visible to crawlers
 
-    <span class="caesar" data-href="some caesar cyper">Click Me!</span>
+    <span class="caesar" data-href="some encrypted link">Click Me!</span>
 
     $(".caesar").caesar({
       onClick: function(e){
