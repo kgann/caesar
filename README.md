@@ -24,7 +24,7 @@ Options
       // function
     }
 
-Encrypt the string on the backend and provide a character lookup table or use the default
+Encrypt the string on the backend then provide a character lookup table or use the default
 
 Any character that does not have a property in the lookup object will be left alone
 
@@ -34,9 +34,6 @@ Most recently used for a client who didn't want some links visible to crawlers
 
     $(".caesar").caesar({
       onClick: function(e){
-        if(this.data("target") == "_blank")
-          window.open(e.data.decoded, "_blank");
-        else
-          window.location = e.data.decoded;
+        window.location = e.data.decoded;
       }
     })
