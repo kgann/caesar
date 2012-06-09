@@ -8,6 +8,7 @@ Example
     $(".selector").caesar()
 
 Options
+
     attr: "data-href", // the location of the caesar string
 
     // default character lookup object
