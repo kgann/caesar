@@ -24,6 +24,10 @@ Options
       // function
     }
 
+Encrypt the string on the backend and provide a character lookup table or use the default
+
+Any character that does not have a property in the lookup object will be left alone
+
 Most recently used for a client who didn't want some links visible to crawlers
 
     <span class="caesar" data-href="some encrypted link">Click Me!</span>
