@@ -7,6 +7,10 @@ Example
 
     $(".selector").caesar()
 
+Chainable
+
+    $(".selector").caesar().css({cursor: "pointer"}).appendTo("body")
+
 Options
 
     attr: "data-href", // the location of the caesar string
