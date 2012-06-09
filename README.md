@@ -24,7 +24,7 @@ Options
       // function
     }
 
-Encrypt the string on the backend then provide a character lookup table or use the default
+Encrypt the string on the backend, then provide a character lookup table or use the default
 
 Any character that does not have a property in the lookup object will be left alone
 
