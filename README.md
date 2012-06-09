@@ -23,7 +23,7 @@ Options
       5: "4", 6: "5", 7: "6", 8: "7", 9: "8", 0: "9"
     },
 
-    // optional onClick event - you are passed both decoded and encode versions of the string in the event object
+    // optional onClick event - you are passed both decoded and encoded versions of the string in the event object
     onClick: function(e) {
       // function
     }
